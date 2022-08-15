@@ -1,0 +1,29 @@
+
+<!-- ============================ Footer =========================== -->
+
+<footer>
+    <div class="container">
+            <div class="copy">
+                <p>
+                    &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By <%- config.author %>. All Rights Reserved.
+                </p>
+            </div>
+            <div class="social">
+                <ul>
+                   <% if (theme.footlinks && theme.footlinks.length){ %>
+            
+                
+                <ul class="submenu">
+                    <% theme.footlinks.forEach(function(item){ %>
+                    <li><a href="<%- item.link %>" class="animsition-link"><%= item.name %> | </a></li>
+                    <% }); %>
+                </ul>
+            </li>
+            <% } %>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
