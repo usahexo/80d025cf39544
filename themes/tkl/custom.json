@@ -1,0 +1,12 @@
+{
+	"cover":"/img/bg_img.jpg",
+	"logo":"/img/logo.png",
+	"ico":"img/favicon.ico",
+	"url":"/source/img/",
+	"alink":["footlinks","links"],
+	"link":[{
+	"name":"",
+	"link":""
+	}],
+	"color":["#993333","#FF6600","#663300","#99CC66","#006633","#339999","#003366","#333366","#330033","#990066","#000000"]
+}
